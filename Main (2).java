@@ -1,0 +1,40 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+
+
+    Scanner sc = new Scanner(System.in);
+    
+    int a;
+    double  b, c, d;
+    System.out.printf("qual seu numero de crachá? R:");
+    a = sc.nextInt();
+    System.out.printf("quantas horas trabalha por més? R:");
+    b = sc.nextDouble();
+    System.out.printf("quanto ganha por hora? R:");
+    c = sc.nextDouble();
+    
+    d = b*c;
+    
+    
+    
+    
+    System.out.printf("seu numero de crachá é: %d%nseu salario é: %.2f", a,d);
+    
+    sc.close();
+
+
+
+}
+	
+	
+	
+}
