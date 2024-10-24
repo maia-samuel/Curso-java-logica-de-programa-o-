@@ -20,7 +20,7 @@ public class Main
     b = Math.pow(a,2);
     c = b*pi;
     
-    System.out.printf("sua area é %.3f", c);
+    System.out.printf("sua area é %.4f", c);
     
     sc.close();
 
