@@ -1,0 +1,27 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Quantas medias ponderadas?");
+    int nt = sc.nextInt();
+    double rs, rs2, rs3; 
+	double v1, v2, v3 ;
+	     for(int x = 0; x<nt; x++) {
+	     // Lerndo os 3 valores na mesma linha separados por espaços 
+	     v1 = sc.nextDouble();
+	     v2 = sc.nextDouble();
+         v3 = sc.nextDouble();
+         rs = ((v1 * 2) + (v2 * 3) + (v3 * 5)) / 10; 
+       System.out.printf("A media ponderada é : %.1f%n", rs);
+	     } 
+        
+	}
+}
