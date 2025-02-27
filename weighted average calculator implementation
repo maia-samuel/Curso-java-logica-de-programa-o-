@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Projeto {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Quantos casos voce gostaria de testar? ");
+        int N = scanner.nextInt();
+        
+        for (int i = 0; i < N; i++) {
+            System.out.println("Digite tres numeros: ");
+            float v1 = scanner.nextFloat();
+            float v2 = scanner.nextFloat();
+            float v3 = scanner.nextFloat();
+            float media = v1 * 2 + v2 * 3 + v3 * 5 / 10;
+            System.out.printf("%.1f\n", media);
+        }
+         scanner.close();
+
+    }
+}
